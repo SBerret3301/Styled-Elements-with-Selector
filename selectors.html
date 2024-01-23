@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Styled Elements with ~ Selector</title>
+</head>
+<style>
+    /* Apply styles to any <span> element that comes after a <p> element */
+    p ~ span {
+        color: aqua;
+    }
+</style>
+<body>
+    <!-- Display a <span> element with aqua color -->
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore fugiat nihil quas corporis eius ipsam inventore nemo maxime similique error quasi, repellendus quisquam libero culpa alias quae perferendis! Minus?</span>
+    
+    <!-- Display a <p> element -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente blanditiis ipsam culpa in nihil, et facere corrupti dicta rem dignissimos ut voluptates asperiores dolorem repellat maiores, deleniti placeat quia?</p>
+    
+    <!-- Display a <code> element -->
+    <code>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nemo praesentium molestias aspernatur, alias repudiandae voluptatem dicta quod modi rerum sapiente quibusdam totam eaque expedita inventore mollitia quos pariatur quis.</code>
+    
+    <!-- Display another <span> element with aqua color -->
+    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, ducimus explicabo nam delectus corporis, debitis quibusdam similique fugiat aspernatur et excepturi! Harum, tempora? Exercitationem eligendi iusto eos, quibusdam vero officia!</span>
+    
+    <!-- Display another <code> element -->
+    <code>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nemo praesentium molestias aspernatur, alias repudiandae voluptatem dicta quod modi rerum sapiente quibusdam totam eaque expedita inventore mollitia quos pariatur quis.</code>
+    
+    <!-- Display yet another <span> element with aqua color -->
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum numquam fugit explicabo quis itaque nostrum qui illo ducimus, recusandae earum reprehenderit omnis placeat sequi quod, eius nisi accusantium veniam ratione?</span>
+</body>
+</html>
